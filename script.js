@@ -60,3 +60,6 @@ setInterval(socTextLoad, 12000);
       }
     });
   });
+  window.onload = function() {
+    document.getElementById('home-link').classList.add('active');
+};
