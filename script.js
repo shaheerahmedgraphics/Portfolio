@@ -5,13 +5,13 @@ const text = document.querySelector(".soc-text");
 
 const textLoad = () => {
     setTimeout(() => {
-        text.textContent = "Freelancer";
+        text.textContent = "Developer";
     }, 0);
     setTimeout(() => {
-        text.textContent = "Blogger";
+        text.textContent = "Creator";
     }, 4000);
     setTimeout(() => {
-        text.textContent = "YouTuber";
+        text.textContent = "Designer";
     }, 8000); //1s = 1000 milliseconds
 }
 
@@ -22,10 +22,10 @@ const socText = document.querySelector(".sec-text");
 
 const socTextLoad = () => {
   setTimeout(() => {
-    socText.textContent = "Designer";
+    socText.textContent = "Developer";
   }, 0);
   setTimeout(() => {
-    socText.textContent = "Developer";
+    socText.textContent = "Designer";
   }, 4000);
   setTimeout(() => {
     socText.textContent = "Creator";
