@@ -583,9 +583,9 @@ filter: drop-shadow(0 0 23px var(--animation-color))
 
 
 .social-media a:hover {
-  background: var(--main-color);
-  color: var(--second-bg-color);
-  box-shadow: 0 0 1rem var(--main-color);
+  background: black;
+  color: #0ef;
+  box-shadow: 0 0 25px var(--main-color);
 }
 /* --------------===============================about============================--------------------------- */
 /* about section styling */
